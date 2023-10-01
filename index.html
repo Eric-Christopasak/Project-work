@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christo's Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/Css/style.css">
+<style>
+    body {
+        font-family: 'Playball', cursive;
+        color: white;
+        margin: 0%;
+        padding: 0%;
+        background: url(img/bg.jpg);
+    }
+
+    /*Css for Left*/
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 0%;
+    }
+
+    .left img {
+        width: 150px;
+        margin-top: 0px;
+    }
+
+    .left div {
+        text-align: center;
+        margin: -20px;
+    }
+
+    /* Css for Mid*/
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+        padding: 12px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar li a:hover {
+
+        text-decoration: underline;
+        color: rgb(56, 56, 242);
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 40px auto;
+    }
+
+    /* Css for right*/
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+    }
+
+    .btn {
+        font-family: 'Playball', cursive;
+        font-size: 20px;
+        margin: 32px 12px;
+        padding: 3px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: brown;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 100px 80px;
+        padding: 70px;
+        width: 40%;
+        border-radius: 10px;
+    }
+
+    .form-group input {
+        font-family: 'Playball', cursive;
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 8px;
+        border: 2px solid black;
+        margin: 5px auto;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 25%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!--left box for logo-->
+
+        <div class="left">
+            <img src="img/logo.png" alt="">
+            <div>Christo' Fitness</div>
+        </div>
+        <!--mid box for navbar-->
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!--right box for search bar-->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">E-mail us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Get the best of you at the right place</h1>
+        <form action="no action.php"></form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <input type="email" name="" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+            <input type="number" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your mobile number">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender ">
+        </div>
+        <button class="btn">Submit now</button>
+    </div>
+</body>
+
+</html>
